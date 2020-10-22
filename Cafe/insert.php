@@ -58,7 +58,7 @@ if($status==false){
 }else{
   //５．index.phpへリダイレクト
   // 書き込みが成功した場合 header=移動処理 遷移
-  // header('Location: index.php');
+  header('Location: index.php');
   // １データのみの抽出の場合はwhileループで取り出さない
   $row = $stmt->fetch();
   
